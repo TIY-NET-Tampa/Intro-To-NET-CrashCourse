@@ -19,6 +19,24 @@ Please have the following downloaded and installed before the creash course. Thi
 ### Agenda
 
 #### Basic Winform App
+	1. Once Visual Studio is install, open it
+	2. Select "New Project"
+	
+	 ![New Project](http://i.imgur.com/lJDdHN2.png)
+	
+	3. Select "Windows Form Application"
+		- Name it "DiceRollerSolution" 
+	4.Open the Toolbox on the right side of the screen
+	5. Add a "Label" to the designer by clicking and dragging
+	6. Right-click the Label and select "Properties"
+	7. Change the "Text" value to "My Super Cool Dice Roller"
+	8. Feel free to play with the other formatting values (Color, style font, etc) 
+	9. Add a button in the same way the label was added
+	10. Add another Label, Change the Property called "Name" to "Output"
+	11. Double click the button in the designer to add a button1_Click method (this should take you the code behind
+	12. Add the random number generator code to the button1_Click method ( If you run this, you should have a six sided dice roller!)
+	13. Go back to the designer and add a textbox to the form (Feel free to mess around with the layout )
+	14. Update the button1_Click to get the value for max sides from the new text box
 
 #### Class Abstraction
 
@@ -49,5 +67,4 @@ Please have the following downloaded and installed before the creash course. Thi
 - Books (general programing books)
   - Pragmatic Programer
   - Code Complete
-
 
