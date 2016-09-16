@@ -54,7 +54,9 @@ Please have the following downloaded and installed before the creash course. Thi
 - Add a button in the same way the label was added
 
 #### Step 9 
-- Add another Label, Change the Property called "Name" to "Output"#### Step 10 
+- Add another Label, Change the Property called "Name" to "Output"
+
+#### Step 10 
 ![Name Vs Text](http://i.imgur.com/avpTWbA.png)
 
 #### Step 11
