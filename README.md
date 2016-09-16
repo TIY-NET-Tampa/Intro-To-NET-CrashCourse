@@ -112,38 +112,71 @@ Please have the following downloaded and installed before the creash course. Thi
 
 ### BONUS: ASP.NET Web App 
 #### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
-#### Step 1
+ - Add a new project like last but instead select "ASP.NET Web Application" and name it DiceRollerWeb
+ ![new web app](http://i.imgur.com/B4FXcjb.png)
+ 
+ 
+#### Step 2
+- On the next screen select MVC and make sure the Host in Cloud option is checked off
 
-1. Add a new project like last but instead select "ASP.NET Web Application" and name it DiceRollerWeb
-2.  On the next screen select MVC and make sure the Host in Cloud option is checked off
-3. Add a new Controller to the Controllers folder by right clicking the controller folder and selecting Add -> Controller. Select "MVC 5 Controller - Empty" , Call it  "DiceController"
-4. Open that controller and add an item to the ViewBag called Result
-5. Right-click "return View()" and select "Add View"
-6. Leave the values as the defaults and click "Add"
-7. Add the following HTML to the new View file
-8. Lets make sure it works. Right click the DiceRollerWeb Project and select "Select As Start Up Project"
-9. Hit the "Run button" which will not display a browser instead of "Start"
-10. Navigate to "http://localhost:XXXXX/Dice/Index" to see your new page. The XXXXX will be the port in the url.
-11. Stop the site and add the reference to the DiceRollerLogic like we did before, except this time we are added the reference to the DiceRollerWeb.
-12. Update the controller to look like this
-13. Re-build the site and go to  "http://localhost:XXXXX/Dice/Index" and it should be display a random number between 1 and 6
-14. Now go to "http://localhost:XXXXX/Dice/Index?sides=20" and it will show a number between 1 and 20. You can change the value of sides to change the number sides are rolled
-15. Go back to the controller and update to the following code. Change Index -> Roll and add a string to "return View("Index")
-16. Now the url is "http://localhost:XXXXX/Dice/Roll?sides=20" 
+
+#### Step 3
+- Add a new Controller to the Controllers folder by right clicking the controller folder and selecting Add -> Controller. Select "MVC 5 Controller - Empty" , Call it  "DiceController"
+![enter image description here](http://i.imgur.com/6Gi5REZ.png)
+![enter image description here](http://i.imgur.com/xNaCvyU.png)
+
+
+#### Step 4
+- Open that controller and add an item to the ViewBag called Result
+![enter image description here](http://i.imgur.com/hHUkzgO.png)
+
+#### Step 5
+- Right-click "return View()" and select "Add View"
+![enter image description here](http://i.imgur.com/FATqAk9.png)
+
+
+#### Step 6
+- Leave the values as the defaults and click "Add"
+
+
+#### Step 7
+- Add the following HTML to the new View file
+![enter image description here](http://i.imgur.com/78Z74vc.png)
+
+
+#### Step 8
+- Lets make sure it works. Right click the DiceRollerWeb Project and select "Select As Start Up Project"
+![enter image description here](http://i.imgur.com/lVJ4NZ3.png)
+
+#### Step 9
+-  Hit the "Run button" which will not display a browser instead of "Start"
+![enter image description here](http://i.imgur.com/WW2N9O3.png)
+
+#### Step 10
+- Navigate to "http://localhost:XXXXX/Dice/Index" to see your new page. The XXXXX will be the port in the url.
+
+
+#### Step 11
+- Stop the site and add the reference to the DiceRollerLogic like we did before, except this time we are added the reference to the DiceRollerWeb.
+
+
+#### Step 12
+- Update the controller to look like this
+![enter image description here](http://i.imgur.com/S7KinJ2.png)
+
+#### Step 13
+- Re-run the site and go to  "http://localhost:XXXXX/Dice/Index" and it should be display a random number between 1 and 6
+
+#### Step 14
+- Now go to "http://localhost:XXXXX/Dice/Index?sides=20" and it will show a number between 1 and 20. You can change the value of sides to change the number sides are rolled
+
+
+#### Step 15
+- Go back to the controller and update to the following code. Change Index -> Roll and add a string to "return View("Index")
+![enter image description here](http://i.imgur.com/uS89GsZ.png)
+
+#### Step 16
+- Now the url is "http://localhost:XXXXX/Dice/Roll?sides=20" 
 
 
 ### Future Reading and Resouces
@@ -169,4 +202,3 @@ Please have the following downloaded and installed before the creash course. Thi
 - Books (general programing books)
   - Pragmatic Programer
   - Code Complete
-
