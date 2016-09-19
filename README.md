@@ -1,6 +1,6 @@
 # Intro-To-NET-CrashCourse
 
-This is the repository where the "hands on" portion of the "What/Why/How to .NET" crash course will live. The main branch will contain the Instructions (the README) and any other default code examples that are needed (if any). There is a branch called "Final". That is the complete example of what we are going to build
+This is the repository where the "hands on" portion of the "What/Why/How to .NET" crash course will live. The main branch will contain the Instructions (the README) and any other default code examples that are needed (if any). There is a branch called "Final". That is the complete example of what we are going to build. These are just a step by step guide, for the explaination and more details you have to come to the crash course. 
 
 
 ## Pre Reqs
